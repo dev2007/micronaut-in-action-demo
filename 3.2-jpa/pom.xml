@@ -146,7 +146,7 @@
                     </annotationProcessorPaths>
                     <compilerArgs>
                         <arg>-Amicronaut.processing.group=fun.mortnon.demo</arg>
-                        <arg>-Amicronaut.processing.module=mybatisdemo</arg>
+                        <arg>-Amicronaut.processing.module=jpademo</arg>
                     </compilerArgs>
                 </configuration>
             </plugin>

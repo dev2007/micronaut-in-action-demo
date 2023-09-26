@@ -1,6 +1,6 @@
 micronaut:
   application:
-    name: jpademo
+    name: r2dbcdemo
 netty:
   default:
     allocator:

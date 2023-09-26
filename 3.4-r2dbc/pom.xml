@@ -3,7 +3,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>fun.mortnon.demo</groupId>
-    <artifactId>jpademo</artifactId>
+    <artifactId>r2dbcdemo</artifactId>
     <version>0.1</version>
     <packaging>${packaging}</packaging>
 
@@ -152,7 +152,7 @@
                     </annotationProcessorPaths>
                     <compilerArgs>
                         <arg>-Amicronaut.processing.group=fun.mortnon.demo</arg>
-                        <arg>-Amicronaut.processing.module=mybatisdemo</arg>
+                        <arg>-Amicronaut.processing.module=r2dbcdemo</arg>
                     </compilerArgs>
                 </configuration>
             </plugin>
