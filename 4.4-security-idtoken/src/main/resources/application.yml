@@ -1,0 +1,26 @@
+micronaut:
+  application:
+    name: firstdemo
+  server:
+    port: 8080
+    netty:
+      max-header-size: 500KB
+  security:
+    authentication: cookie
+    redirect:
+      login-success: /user
+    oauth2:
+      clients:
+        gitee:
+          client-id: da28980047eb2c732b8bcee4be567c6a4f38c6459587063f2607084c9c33b957
+          client-secret: 4cd81eac1dae28b698044ed5b55e2580da94aca7d872e11e5b47d6c8a3b0a26d
+          authorization:
+            url: https://gitee.com/oauth/authorize
+          token:
+            url: https://gitee.com/oauth/token
+            auth-method: client-secret-basic
+
+netty:
+  default:
+    allocator:
+      max-order: 3
