@@ -1,0 +1,20 @@
+micronaut:
+  application:
+    name: firstdemo
+  server:
+    port: 8080
+    netty:
+      max-header-size: 500KB
+  security:
+    authentication: bearer
+    redirect:
+      enabled: false
+    endpoints:
+      login:
+        enabled: false
+      logout:
+        enabled: false
+netty:
+  default:
+    allocator:
+      max-order: 3
